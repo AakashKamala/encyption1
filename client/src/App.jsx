@@ -4,10 +4,15 @@ import FileEncryptDecrypt from './pages/FileEncryptDecrypt.jsx'
 
 const App = () => {
   return (
-    <Routes>
-      <Route path='/' element={<FileEncryptDecrypt />} />
-      {/* <Route path='/home' element={<Encrypt />} /> */}
-    </Routes>
+    <div>
+      <div>
+        <h1>Encrypt your file before sharing. Secure your data.</h1>
+      </div>
+      <Routes>
+        <Route path='/' element={<FileEncryptDecrypt />} />
+          {/* <Route path='/home' element={<Encrypt />} /> */}
+        </Routes>
+    </div>
   )
 }
 
